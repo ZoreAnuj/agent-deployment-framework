@@ -1,0 +1,25 @@
+{
+	"include": ["src"],
+	"exclude": ["node_modules/**/*.ts"],
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"module": "CommonJS",
+		"outDir": "dist/",
+		"sourceMap": true,
+		"target": "ES2015",
+
+		"strict": true,
+
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		"skipLibCheck": true
+	},
+}
